@@ -18,19 +18,19 @@ section {
   margin-bottom: 40px;
 }
 
-.projeto {
+.project {
   border: 1px solid #ddd;
   padding: 15px;
   margin-bottom: 15px;
   border-radius: 6px;
 }
 
-.projeto h3 {
+.project h3 {
   margin-top: 0;
 }
 
 a {
-  color: #0366d6;
+  color: #03d65b;
   text-decoration: none;
 }
 

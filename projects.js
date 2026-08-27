@@ -1,4 +1,4 @@
-const projetos = [
+const projects = [
   {
     titl: "Contact Manager - Java (RMI & Socket)",
     desc: "Two client-server contact management applications built in Java, both offering the same terminal-based experience (register, login, and manage a personal contact list) but implemented with different communication technologies.",
