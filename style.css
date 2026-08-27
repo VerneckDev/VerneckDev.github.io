@@ -14,18 +14,21 @@ h1 {
   margin-bottom: 5px;
   background: -webkit-linear-gradient(#eee, #333);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 h2 {
   background: -webkit-linear-gradient(#eee, #333);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 h3 {
   background: -webkit-linear-gradient(#eee, #333);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
