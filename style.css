@@ -32,6 +32,13 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 
+p {
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 section {
   margin-bottom: 40px;
 }
