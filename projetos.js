@@ -1,4 +1,5 @@
 const projetos = [
+
   {
     titl: "Contact Manager - Java (RMI & Socket)",
     desc: "Two client-server contact management applications built in Java, both offering the same terminal-based experience (register, login, and manage a personal contact list) but implemented with different communication technologies.",
@@ -16,12 +17,20 @@ const projetos = [
     desc: "A terminal-based implementation of the classic 2048 puzzle game, written in Java. The board is rendered using Unicode box-drawing characters, and the game is controlled entirely from the keyboard.",
     tech: "Java",
     link: "https://github.com/VerneckDev/2048-GAME.git"
+  },
+  {
+    titl: "ATECC608B - Encoder Microchip",
+    desc: "A hardware cryptography project using the ATECC608B secure element to encode simple phrases and small files. The chip communicates with an Arduino Uno over I2C, with one folder handling initial configuration and locking of the chip, and two more folders implementing separate encoders/decoders — one for phrase decoding, another for small file encoding.",
+    tech: "C++, Pytohn",
+    link: "https://github.com/VerneckDev/ATECC608B-Project.git"
   }
+
 ];
 
 const container = document.getElementById("lista-projetos");
 
 projetos.forEach((p) => {
+
   const div = document.createElement("div");
   div.className = "projeto";
 
@@ -33,4 +42,5 @@ projetos.forEach((p) => {
   `;
 
   container.appendChild(div);
+
 });
