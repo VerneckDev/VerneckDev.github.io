@@ -19,6 +19,12 @@ const projetos = [
     link: "https://github.com/VerneckDev/2048-GAME.git"
   },
   {
+    titl: "Quantum Computing - Numerical Pulses Optimization",
+    desc: "Developed and implemented numerical pulse-optimization methods for a two-qubit Nuclear Magnetic Resonance (NMR) quantum computer using MATLAB. The project involved modelling the system Hamiltonian, implementing quantum gates and pulse sequences, simulating spin dynamics, and calculating quantum-state fidelity. I implemented and analysed Strongly Modulating Pulses (SMP) and GRAPE-based pulse optimization, including numerical parameter optimization and density-matrix analysis. The optimized pulses were experimentally tested on an NMR quantum computing platform, allowing the comparison of simulated and experimental results and providing hands-on experience in quantum control, numerical optimization, and experimental quantum computing.",
+    tech: "MATLAB",
+    link: "https://github.com/VerneckDev/QuantumComputing-NumericalOP"
+  },
+  {
     titl: "ATECC608B - Encoder Microchip",
     desc: "A hardware cryptography project using the ATECC608B secure element to encode simple phrases and small files. The chip communicates with an Arduino Uno over I2C, with one folder handling initial configuration and locking of the chip, and two more folders implementing separate encoders/decoders — one for phrase decoding, another for small file encoding.",
     tech: "C++, Pytohn",
